@@ -63,14 +63,15 @@
     <p class="app-name">BAN.TE — Golf Practice Support App</p>
 
     <h2>1. Data Handling</h2>
-    <p>BAN.TE stores all user data exclusively on the device. No data is transmitted to or collected by external servers.</p>
-    <ul>
-      <li>All data, including practice logs, swing notes, and packing checklists, is stored in a local database on your device.</li>
-      <li>No account registration or login is required.</li>
-    </ul>
+    <p>BAN.TE stores data such as practice logs, swing notes, and packing checklists in a local database on your device. No account registration or login is required for basic use.</p>
 
-    <h2>2. Personal Information</h2>
-    <p>This app does not collect any personal information. You will never be asked to provide your name, email address, location, or any other personally identifiable information.</p>
+    <h2>2. Cloud Backup with Google Account</h2>
+    <p>This app offers an optional feature to back up your data to the cloud by signing in with a Google account. When you use this feature, the following information is collected and stored:</p>
+    <ul>
+      <li>Your Google account email address (used by Firebase Authentication for sign-in)</li>
+      <li>Practice logs, shot memos, swing notes, packing checklists, and settings (stored in Google Cloud Firestore via encrypted connection)</li>
+    </ul>
+    <p>This data is accessible only by you and is never shared with or sold to third parties. If you do not use the backup feature, all data remains on your device and is never transmitted externally.</p>
 
     <h2>3. Analytics &amp; Tracking</h2>
     <p>This app does not include any analytics tools or tracking SDKs. Your usage is not tracked in any way.</p>
@@ -80,7 +81,8 @@
     <p>Please refer to each site's own privacy policy for information on how they handle your data.</p>
 
     <h2>5. Data Deletion</h2>
-    <p>Uninstalling the app from your device will delete all stored data.</p>
+    <p>Uninstalling the app from your device will delete all locally stored data.</p>
+    <p>If you have used the cloud backup feature, you can permanently delete your backup data by selecting "Delete Cloud Data" from the My Page screen within the app.</p>
 
     <h2>6. Contact</h2>
     <p>If you have any questions about this policy, please reach out via the contact form below.</p>
@@ -89,7 +91,7 @@
     <h2>7. Changes</h2>
     <p>This policy may be updated as needed. Any changes will take effect as soon as the revised policy is posted on this page.</p>
 
-    <p class="updated">Last updated: March 15, 2026</p>
+    <p class="updated">Last updated: March 16, 2026</p>
   </div>
 </body>
 </html>
